@@ -1,8 +1,8 @@
 def validProcess(lst, len):
     if m % 2 != 0:
-        return lst[: (len // 2) + 1 :] == lst[-1 : -((len // 2) + 2) : -1]
+        return lst[: (len // 2) + 1:] == lst[-1: -((len // 2) + 2): -1]
     else:
-        return lst[: len // 2 :] == lst[-1 : (len // 2) - 1 : -1]
+        return lst[: len // 2:] == lst[-1: (len // 2) - 1: -1]
 
 
 t = int(input())
