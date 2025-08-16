@@ -28,5 +28,4 @@ for tc in range(1,11):
             cal_stack.append(a * b)
         else:
             cal_stack.append(int(char))
-
     print(f"#{tc} {cal_stack.pop()}")
